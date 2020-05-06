@@ -1,0 +1,1104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="05/06/20||17:22:37" using="Simscape Multibody Link Version 6.0" from="SolidWorks 27.3.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Hexapod" uid="Hexapod" version="573">
+<AssemblyFile name="Hexapod.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Tibia-1" uid="Tibia-1" entityUid="Tibia" rigid="true">
+<Transform>
+<Rotation>-0.001229708851142975 0.012551751931435189 0.99992046750708796 0 0.99992122353974078 -0.012551761421724282 -0.99999924390778505 -1.5435012117729241e-05 -0.0012296119790325272</Rotation>
+<Translation>0.17499999999992411 3.3319050643521031e-14 0</Translation>
+</Transform>
+<Instance name="Tibia-1" uid="Tibia-1" entityUid="Tibia*:*Default">
+<Transform>
+<Rotation>1.0000000000000002 0 0 0 0.96592582628906809 -0.25881904510252129 0 0.25881904510252135 0.96592582628906798</Rotation>
+<Translation>-0.0010000000000000005 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Femur-3" uid="Femur-3" entityUid="Femur" rigid="true">
+<Transform>
+<Rotation>0.86540989456380091 -0.19260012255932085 0.46256989437403456 0 0.9231742012119345 0.38438183387968095 -0.50106458105824137 -0.33264784233005518 0.79892408813484139</Rotation>
+<Translation>0.062571937643628464 0.078755026032155159 0.10850013164561753</Translation>
+</Transform>
+<Instance name="Femur-1" uid="Femur-1" entityUid="Femur*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="MG90s_servo-1" uid="MG90s_servo-1" entityUid="MG90s_servo*:*Default">
+<Transform>
+<Rotation>0 0 1 0 -1 0 0.99999999999999989 0 0</Rotation>
+<Translation>-0.0089999999999999941 0 0.050000000000000017</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Femur-5" uid="Femur-5" entityUid="Femur" rigid="true">
+<Transform>
+<Rotation>-0.86663960341494295 -0.19178142069224738 0.46060360883307655 2.2757403600470738e-16 0.92317420121193572 0.38438183387967806 -0.49893466284954646 0.33312052007339271 -0.80005932362121857</Rotation>
+<Translation>0.062677901497246336 0.078755026032155173 -0.1084389533862069</Translation>
+</Transform>
+<Instance name="Femur-1" uid="Femur-1" entityUid="Femur*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="MG90s_servo-1" uid="MG90s_servo-1" entityUid="MG90s_servo*:*Default">
+<Transform>
+<Rotation>0 0 1.0000000000000002 0 -1 0 1 0 0</Rotation>
+<Translation>-0.0089999999999999941 0 0.050000000000000017</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Coxa-6" uid="Coxa-6" entityUid="Coxa" rigid="true">
+<Transform>
+<Rotation>-0.86540989456380257 0 -0.50106458105823815 0 1 0 0.50106458105823815 0 -0.86540989456380257</Rotation>
+<Translation>-0.034888119540161015 0.057755026032155155 -0.06068623497096727</Translation>
+</Transform>
+<Instance name="Coaxa-1" uid="Coaxa-1" entityUid="Coaxa*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.020999999999999963 0</Translation>
+</Transform>
+</Instance>
+<Instance name="MG90s_servo-1" uid="MG90s_servo-1" entityUid="MG90s_servo*:*Default">
+<Transform>
+<Rotation>0 0 -1 7.7715611723760997e-16 1 0 1 -7.7715611723760987e-16 0</Rotation>
+<Translation>0.0089999999999999906 0.021000000000000005 0.049999999999999989</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Femur-2" uid="Femur-2" entityUid="Femur" rigid="true">
+<Transform>
+<Rotation>0.86663960341494128 0.1917814206922516 -0.46060360883307772 0 0.92317420121193317 0.38438183387968411 0.49893466284954913 -0.33312052007339732 0.80005932362121501</Rotation>
+<Translation>-0.062677901497246086 0.078755026032155159 0.10843895338620707</Translation>
+</Transform>
+<Instance name="Femur-1" uid="Femur-1" entityUid="Femur*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="MG90s_servo-1" uid="MG90s_servo-1" entityUid="MG90s_servo*:*Default">
+<Transform>
+<Rotation>0 0 1 0 -0.99999999999999989 0 1 0 0</Rotation>
+<Translation>-0.0089999999999999941 0 0.050000000000000017</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Femur-6" uid="Femur-6" entityUid="Femur" rigid="true">
+<Transform>
+<Rotation>-0.001229708851142874 -0.38438154325156632 0.92317350320710867 0 0.9231742012119355 0.3843818338796785 -0.99999924390778483 0.00047267774334036806 -0.0011352354863770706</Rotation>
+<Translation>0.12524983914087487 0.078755026032155159 6.1178259410599178e-05</Translation>
+</Transform>
+<Instance name="Femur-1" uid="Femur-1" entityUid="Femur*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="MG90s_servo-1" uid="MG90s_servo-1" entityUid="MG90s_servo*:*Default">
+<Transform>
+<Rotation>0 0 0.99999999999999989 0 -1 0 0.99999999999999967 0 0</Rotation>
+<Translation>-0.0089999999999999976 0 0.049999999999999989</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Coxa-5" uid="Coxa-5" entityUid="Coxa" rigid="true">
+<Transform>
+<Rotation>-0.0012297088511429022 0 0.99999924390778505 0 1 0 -0.99999924390778505 0 -0.0012297088511429022</Rotation>
+<Translation>0.069999880914969753 0.057755026032155155 0.00012911967343624993</Translation>
+</Transform>
+<Instance name="Coaxa-1" uid="Coaxa-1" entityUid="Coaxa*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.020999999999999963 0</Translation>
+</Transform>
+</Instance>
+<Instance name="MG90s_servo-1" uid="MG90s_servo-1" entityUid="MG90s_servo*:*Default">
+<Transform>
+<Rotation>0 0 -1 7.7715611723760918e-16 1 0 1 -7.7715611723760918e-16 0</Rotation>
+<Translation>0.0090000000000000045 0.021000000000000005 0.050000000000000017</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Base Platform-1" uid="Base Platform-1" entityUid="Base Platform" rigid="true">
+<Transform>
+<Rotation>0.86694621387096316 0 0.4984017077165791 0 1 0 -0.4984017077165791 0 0.86694621387096316</Rotation>
+<Translation>0 0.070755026032155152 0</Translation>
+</Transform>
+<Instance name="MG90s_servo-1" uid="MG90s_servo-1" entityUid="MG90s_servo*:*Default">
+<Transform>
+<Rotation>0 1.0000000000000002 0 0 0 1 1.0000000000000002 0 0</Rotation>
+<Translation>0 0 0.064750000000000016</Translation>
+</Transform>
+</Instance>
+<Instance name="MG90s_servo-3" uid="MG90s_servo-3" entityUid="MG90s_servo*:*Default">
+<Transform>
+<Rotation>0.86602540378443627 -0.500000000000004 0 0 0 0.99999999999999989 -0.500000000000004 -0.86602540378443627 0</Rotation>
+<Translation>0.056075144895042277 0 -0.032375000000000272</Translation>
+</Transform>
+</Instance>
+<Instance name="MG90s_servo-2" uid="MG90s_servo-2" entityUid="MG90s_servo*:*Default">
+<Transform>
+<Rotation>0.86602540378443982 0.49999999999999806 0 0 0 1 0.49999999999999806 -0.86602540378443982 0</Rotation>
+<Translation>0.056075144895042485 0 0.032374999999999869</Translation>
+</Transform>
+</Instance>
+<Instance name="Center Platform-1" uid="Center Platform-1" entityUid="Center Platform*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="MG90s_servo-6" uid="MG90s_servo-6" entityUid="MG90s_servo*:*Default">
+<Transform>
+<Rotation>-0.86602540378443282 0.50000000000001021 0 0 0 1 0.50000000000001021 0.86602540378443282 0</Rotation>
+<Translation>-0.056075144895042027 0 0.03237500000000066</Translation>
+</Transform>
+</Instance>
+<Instance name="MG90s_servo-4" uid="MG90s_servo-4" entityUid="MG90s_servo*:*Default">
+<Transform>
+<Rotation>-6.9388939039072284e-15 -1.0000000000000002 0 0 0 1 -1.0000000000000002 6.9388939039072284e-15 0</Rotation>
+<Translation>0 0 -0.064750000000000016</Translation>
+</Transform>
+</Instance>
+<Instance name="MG90s_servo-5" uid="MG90s_servo-5" entityUid="MG90s_servo*:*Default">
+<Transform>
+<Rotation>-0.86602540378444337 -0.49999999999999201 0 0 0 1 -0.49999999999999201 0.86602540378444337 0</Rotation>
+<Translation>-0.056075144895042707 0 -0.032374999999999488</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Coxa-1" uid="Coxa-1" entityUid="Coxa" rigid="true">
+<Transform>
+<Rotation>0.8666396034149414 0 -0.49893466284954924 0 1 0 0.49893466284954924 0 0.8666396034149414</Rotation>
+<Translation>-0.035111761374808474 0.057755026032155155 0.060557115297531522</Translation>
+</Transform>
+<Instance name="Coaxa-1" uid="Coaxa-1" entityUid="Coaxa*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.020999999999999963 0</Translation>
+</Transform>
+</Instance>
+<Instance name="MG90s_servo-1" uid="MG90s_servo-1" entityUid="MG90s_servo*:*Default">
+<Transform>
+<Rotation>0 0 -1.0000000000000002 7.7715611723760958e-16 1 0 1.0000000000000002 -8.32667268468868e-16 0</Rotation>
+<Translation>0.0090000000000000115 0.021000000000000005 0.050000000000000031</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Coxa-2" uid="Coxa-2" entityUid="Coxa" rigid="true">
+<Transform>
+<Rotation>0.8654098945638008 0 0.50106458105824181 0 1 0 -0.50106458105824181 0 0.8654098945638008</Rotation>
+<Translation>0.03488811954016062 0.057755026032155155 0.060686234970967569</Translation>
+</Transform>
+<Instance name="Coaxa-1" uid="Coaxa-1" entityUid="Coaxa*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.020999999999999963 0</Translation>
+</Transform>
+</Instance>
+<Instance name="MG90s_servo-1" uid="MG90s_servo-1" entityUid="MG90s_servo*:*Default">
+<Transform>
+<Rotation>0 0 -1.0000000000000002 7.7715611723760958e-16 1 0 1.0000000000000002 -8.32667268468868e-16 0</Rotation>
+<Translation>0.0090000000000000045 0.021000000000000005 0.050000000000000003</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Coxa-3" uid="Coxa-3" entityUid="Coxa" rigid="true">
+<Transform>
+<Rotation>-0.86663960341494317 2.1030669302351779e-16 0.4989346628495463 2.0750484239998546e-16 1 0 -0.4989346628495463 0 -0.86663960341494317</Rotation>
+<Translation>0.035111761374808904 0.057755026032155155 -0.060557115297531314</Translation>
+</Transform>
+<Instance name="Coaxa-1" uid="Coaxa-1" entityUid="Coaxa*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.02099999999999997 0</Translation>
+</Transform>
+</Instance>
+<Instance name="MG90s_servo-1" uid="MG90s_servo-1" entityUid="MG90s_servo*:*Default">
+<Transform>
+<Rotation>0 0 -1 7.7715611723760918e-16 1 0 1 -7.7715611723760918e-16 0</Rotation>
+<Translation>0.0090000000000000011 0.021000000000000012 0.050000000000000017</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Coxa-4" uid="Coxa-4" entityUid="Coxa" rigid="true">
+<Transform>
+<Rotation>0.0012297088511382288 0 -0.99999924390778505 0 1 0 0.99999924390778505 0 0.0012297088511382288</Rotation>
+<Translation>-0.069999880914969739 0.057755026032155155 -0.00012911967343577635</Translation>
+</Transform>
+<Instance name="Coaxa-1" uid="Coaxa-1" entityUid="Coaxa*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.020999999999999963 0</Translation>
+</Transform>
+</Instance>
+<Instance name="MG90s_servo-1" uid="MG90s_servo-1" entityUid="MG90s_servo*:*Default">
+<Transform>
+<Rotation>0 0 -1.0000000000000002 7.7715611723760958e-16 1 0 1.0000000000000002 -8.32667268468868e-16 0</Rotation>
+<Translation>0.0090000000000000028 0.021000000000000005 0.050000000000000017</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Femur-1" uid="Femur-1" entityUid="Femur" rigid="true">
+<Transform>
+<Rotation>0.0012297088511383399 0.38438154325157015 -0.92317350320710734 0 0.92317420121193394 0.38438183387968267 0.99999924390778494 -0.00047267774333864358 0.001135235486372909</Rotation>
+<Translation>-0.12524983914087487 0.078755026032155159 -6.1178259410371062e-05</Translation>
+</Transform>
+<Instance name="Femur-1" uid="Femur-1" entityUid="Femur*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="MG90s_servo-1" uid="MG90s_servo-1" entityUid="MG90s_servo*:*Default">
+<Transform>
+<Rotation>0 0 1 2.4999139822850288e-16 -1 0 1.0000000000000002 0 0</Rotation>
+<Translation>-0.0089999999999999976 0 0.050000000000000044</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Femur-4" uid="Femur-4" entityUid="Femur" rigid="true">
+<Transform>
+<Rotation>-0.8654098945638028 0.19260012255931674 -0.4625698943740329 0 0.92317420121193705 0.38438183387967528 0.50106458105823837 0.33264784233005085 -0.79892408813484528</Rotation>
+<Translation>-0.062571937643628686 0.078755026032155159 -0.10850013164561736</Translation>
+</Transform>
+<Instance name="Femur-1" uid="Femur-1" entityUid="Femur*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="MG90s_servo-1" uid="MG90s_servo-1" entityUid="MG90s_servo*:*Default">
+<Transform>
+<Rotation>-1.6653345369377343e-16 0 1 1.1102230246251563e-16 -1 0 1 1.1102230246251573e-16 1.6653345369377343e-16</Rotation>
+<Translation>-0.0090000000000000149 0 0.050000000000000017</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Tibia-4" uid="Tibia-4" entityUid="Tibia" rigid="true">
+<Transform>
+<Rotation>0.0012297088511385686 -0.012551751931108879 -0.99992046750709196 0 0.99992122353974477 -0.012551761421397977 0.99999924390778494 1.5435012117272271e-05 0.0012296119790281314</Rotation>
+<Translation>-0.17499999999995669 3.3160648706120899e-14 0</Translation>
+</Transform>
+<Instance name="Tibia-1" uid="Tibia-1" entityUid="Tibia*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.96592582628906809 -0.25881904510252129 0 0.25881904510252135 0.96592582628906831</Rotation>
+<Translation>-0.0010000000000000002 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Tibia-2" uid="Tibia-2" entityUid="Tibia" rigid="true">
+<Transform>
+<Rotation>0.86540989456380069 0.0062892430781278947 0.50102510896418717 0 0.99992122353974544 -0.01255176142134232 -0.50106458105824192 0.010862418528233837 0.86534172063563786</Rotation>
+<Translation>0.087499999999981093 3.298327323070227e-14 0.15155444566224421</Translation>
+</Transform>
+<Instance name="Tibia-1" uid="Tibia-1" entityUid="Tibia*:*Default">
+<Transform>
+<Rotation>1 0 1.0768828871618951e-16 0 0.96592582628906809 -0.25881904510252141 -1.1102230246251565e-16 0.25881904510252141 0.96592582628906809</Rotation>
+<Translation>-0.0010000000000000009 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Tibia-3" uid="Tibia-3" entityUid="Tibia" rigid="true">
+<Transform>
+<Rotation>0.86663960341494128 -0.006262508852846389 -0.49889535854291261 0 0.99992122353974744 -0.012551761421183933 0.49893466284954913 0.010877853540213804 0.86657133261466968</Rotation>
+<Translation>-0.087499999999988989 3.2961155506383566e-14 0.15155444566225787</Translation>
+</Transform>
+<Instance name="Tibia-1" uid="Tibia-1" entityUid="Tibia*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.96592582628906798 -0.25881904510252141 0 0.25881904510252141 0.96592582628906798</Rotation>
+<Translation>-0.0010000000000000148 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Tibia-5" uid="Tibia-5" entityUid="Tibia" rigid="true">
+<Transform>
+<Rotation>-0.86540989456380257 -0.006289243077955922 -0.50102510896418584 0 0.99992122353974977 -0.012551761420999214 0.50106458105823837 -0.010862418527936943 -0.8653417206356433</Rotation>
+<Translation>-0.087499999999998426 3.2237775816901237e-14 -0.15155444566227391</Translation>
+</Transform>
+<Instance name="Tibia-1" uid="Tibia-1" entityUid="Tibia*:*Default">
+<Transform>
+<Rotation>0.99999999999999989 0 0 0 0.9659258262890682 -0.25881904510252129 0 0.25881904510252129 0.96592582628906798</Rotation>
+<Translation>-0.00099999999999998701 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Tibia-6" uid="Tibia-6" entityUid="Tibia" rigid="true">
+<Transform>
+<Rotation>-0.86663960341494317 0.0062625088532288356 0.49889535854290479 2.1152784385192192e-16 0.99992122353973789 -0.012551761421950192 -0.49893466284954607 -0.010877853540877796 -0.86657133261466335</Rotation>
+<Translation>0.087499999999950936 3.3591673279792511e-14 -0.15155444566219148</Translation>
+</Transform>
+<Instance name="Tibia-1" uid="Tibia-1" entityUid="Tibia*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.9659258262890682 -0.25881904510252141 0 0.25881904510252146 0.96592582628906831</Rotation>
+<Translation>-0.0010000000000000009 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Base Platform-1</Uid>
+</InstancePath>
+<Position>0 0.022699999999999998 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0 0.19299812913976785 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Base Platform-1</Uid>
+<Uid>MG90s_servo-6</Uid>
+</InstancePath>
+<Position>0.0052499999999999908 0 -0.022328789931814294</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Coxa-1</Uid>
+</InstancePath>
+<Position>0 -0.050000000000000003 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base Platform-1</Uid>
+<Uid>MG90s_servo-6</Uid>
+</InstancePath>
+<Position>0.0052499999999999908 0 -0.012999999999999998</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Coxa-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Base Platform-1</Uid>
+<Uid>MG90s_servo-1</Uid>
+</InstancePath>
+<Position>0.0052500000000000047 0 -0.022328789931814294</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Coxa-2</Uid>
+</InstancePath>
+<Position>0 -0.050000000000000003 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Base Platform-1</Uid>
+<Uid>MG90s_servo-4</Uid>
+</InstancePath>
+<Position>0.0052500000000000047 0 -0.022328789931814294</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Coxa-6</Uid>
+</InstancePath>
+<Position>0 -0.050000000000000003 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Base Platform-1</Uid>
+<Uid>MG90s_servo-2</Uid>
+</InstancePath>
+<Position>0.0052500000000000047 0 -0.022328789931814294</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Coxa-5</Uid>
+</InstancePath>
+<Position>0 -0.050000000000000003 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Base Platform-1</Uid>
+<Uid>MG90s_servo-3</Uid>
+</InstancePath>
+<Position>0.0052500000000000047 0 -0.022328789931814294</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Coxa-3</Uid>
+</InstancePath>
+<Position>0 -0.050000000000000003 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Base Platform-1</Uid>
+<Uid>MG90s_servo-5</Uid>
+</InstancePath>
+<Position>0.0052500000000000047 0 -0.022328789931814294</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Coxa-4</Uid>
+</InstancePath>
+<Position>0 -0.050000000000000003 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base Platform-1</Uid>
+<Uid>MG90s_servo-1</Uid>
+</InstancePath>
+<Position>0.0052500000000000047 0 -0.012999999999999998</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Coxa-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base Platform-1</Uid>
+<Uid>MG90s_servo-2</Uid>
+</InstancePath>
+<Position>0.0052500000000000047 0 -0.012999999999999998</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Coxa-5</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base Platform-1</Uid>
+<Uid>MG90s_servo-3</Uid>
+</InstancePath>
+<Position>0.0052500000000000047 0 -0.012999999999999998</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Coxa-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident13">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base Platform-1</Uid>
+<Uid>MG90s_servo-4</Uid>
+</InstancePath>
+<Position>0.0052500000000000047 0 -0.012999999999999998</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Coxa-6</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base Platform-1</Uid>
+<Uid>MG90s_servo-5</Uid>
+</InstancePath>
+<Position>0.0052500000000000047 0 -0.012999999999999998</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Coxa-4</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident15">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Coxa-4</Uid>
+<Uid>MG90s_servo-1</Uid>
+</InstancePath>
+<Position>0.0052499999999999769 0 -0.022328789931814308</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Femur-1</Uid>
+</InstancePath>
+<Position>0.0809 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Coxa-4</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Femur-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident17">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Coxa-1</Uid>
+<Uid>MG90s_servo-1</Uid>
+</InstancePath>
+<Position>0.0052500000000000047 0 -0.022328789931814311</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Femur-2</Uid>
+</InstancePath>
+<Position>0.0809 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident18">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Coxa-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Femur-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident19">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Coxa-2</Uid>
+<Uid>MG90s_servo-1</Uid>
+</InstancePath>
+<Position>0.0052499999999999769 0 -0.022328789931814301</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Femur-3</Uid>
+</InstancePath>
+<Position>0.080899999999999986 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident20">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Coxa-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Femur-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident21">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Coxa-5</Uid>
+<Uid>MG90s_servo-1</Uid>
+</InstancePath>
+<Position>0.0052500000000000185 0 -0.022328789931814308</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Femur-6</Uid>
+</InstancePath>
+<Position>0.0809 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident22">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Coxa-5</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Femur-6</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident23">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Coxa-3</Uid>
+<Uid>MG90s_servo-1</Uid>
+</InstancePath>
+<Position>0.0052500000000000047 0 -0.022328789931814304</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Femur-5</Uid>
+</InstancePath>
+<Position>0.080900000000000027 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident24">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Coxa-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Femur-5</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident25">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Coxa-6</Uid>
+<Uid>MG90s_servo-1</Uid>
+</InstancePath>
+<Position>0.0052500000000000047 0 -0.022328789931814287</Position>
+<Axis>0 0 0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Femur-4</Uid>
+</InstancePath>
+<Position>0.080900000000000027 0 0</Position>
+<Axis>-1.0000000000000002 0 1.6653345369377348e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident26">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Coxa-6</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0.99999999999999978 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Femur-4</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1.0000000000000002 0 -1.6653345369377348e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident27">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Femur-5</Uid>
+<Uid>MG90s_servo-1</Uid>
+</InstancePath>
+<Position>0.0052500000000000047 0 -0.022328789931814308</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Tibia-6</Uid>
+</InstancePath>
+<Position>0.078958151339876118 0.10000000000000001 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident28">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Femur-5</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tibia-6</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident29">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Femur-4</Uid>
+<Uid>MG90s_servo-1</Uid>
+</InstancePath>
+<Position>0.0052500000000000324 0 -0.022328789931814308</Position>
+<Axis>-1.6653345369377348e-16 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Tibia-5</Uid>
+</InstancePath>
+<Position>0.07895815133987609 0.099999999999999992 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident30">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Femur-4</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1.0000000000000002 0 -1.6653345369377348e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tibia-5</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident31">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Femur-1</Uid>
+<Uid>MG90s_servo-1</Uid>
+</InstancePath>
+<Position>0.0052500000000000324 0 -0.022328789931814301</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Tibia-4</Uid>
+</InstancePath>
+<Position>0.07895815133987609 0.099999999999999978 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident32">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Femur-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tibia-4</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident33">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Femur-2</Uid>
+<Uid>MG90s_servo-1</Uid>
+</InstancePath>
+<Position>0.0052500000000000324 0 -0.022328789931814294</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Tibia-3</Uid>
+</InstancePath>
+<Position>0.078958151339876076 0.099999999999999992 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident34">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Femur-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tibia-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident35">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Femur-3</Uid>
+<Uid>MG90s_servo-1</Uid>
+</InstancePath>
+<Position>0.0052500000000000047 0 -0.022328789931814308</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Tibia-2</Uid>
+</InstancePath>
+<Position>0.078958151339876076 0.099999999999999992 0</Position>
+<Axis>-1 0 1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident36">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Femur-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tibia-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 -1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident37">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Femur-6</Uid>
+<Uid>MG90s_servo-1</Uid>
+</InstancePath>
+<Position>0.0052500000000000324 0 -0.022328789931814294</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Tibia-1</Uid>
+</InstancePath>
+<Position>0.078958151339876118 0.10000000000000002 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident38">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Femur-6</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tibia-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base Platform-1</Uid>
+<Uid>Center Platform-1</Uid>
+</InstancePath>
+<Position>-0.026120446049509475 0.050176910009790215 0</Position>
+<Axis>0.95371695074822682 -0.30070579950427379 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>-0.023104245880511434 0.10909812594038883 0.027172491566154627</Position>
+<Axis>0.84147245066290455 -0.30070579950427223 -0.44888766625945753</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base Platform-1</Uid>
+<Uid>Center Platform-1</Uid>
+</InstancePath>
+<Position>-0.061884831702567991 0.061453377491200487 0</Position>
+<Axis>0.95371695074822671 -0.30070579950427373 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>-0.057336290608048374 0.12709660709835308 0.030586329549761336</Position>
+<Axis>-0.84147245066290455 0.30070579950427223 0.44888766625945753</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="Tibia" uid="Tibia" version="333">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Tibia.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Femur" uid="Femur" version="223">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Femur.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Coxa" uid="Coxa" version="295">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Coxa.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Base Platform" uid="Base Platform" version="175">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Base Platform.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="Center Platform" uid="Center Platform*:*Default" version="1574">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Center Platform.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.58629522890072128</Mass>
+<CenterOfMass>-0.0041841842795475384 0.041954931683704615 -2.1641205914340164e-07</CenterOfMass>
+<Inertia>0.0012161650911478197 0.0015215729962889789 0.0011172927311090433 8.1680029608758477e-09 2.2380797881449398e-09 2.6823195086838089e-05</Inertia>
+</MassProperties>
+<GeometryFile name="Center Platform_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.37647058823529411" g="0.37647058823529411" b="0.37647058823529411" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Coaxa" uid="Coaxa*:*Default" version="781">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Coaxa.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.025860631553221755</Mass>
+<CenterOfMass>-0.00082343358221513563 0.0015434167372203708 0.035909632282221687</CenterOfMass>
+<Inertia>1.2643035076124045e-05 1.0149175715974068e-05 5.3961833978731977e-06 6.6207085118211337e-07 5.2220144569978665e-07 -3.2823030115698671e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Coaxa_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.37647058823529411" g="0.37647058823529411" b="0.37647058823529411" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Femur" uid="Femur*:*Default" version="598">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Femur.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.01730000400581121</Mass>
+<CenterOfMass>0.0017270140054717819 -3.3809920620280901e-09 0.037479099477563553</CenterOfMass>
+<Inertia>7.7709697802470396e-06 1.1178688324812254e-05 4.2301415404660586e-06 1.2208885883750632e-11 -4.9253851490434658e-07 -1.2285931483317716e-11</Inertia>
+</MassProperties>
+<GeometryFile name="Femur_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.37647058823529411" g="0.37647058823529411" b="0.37647058823529411" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="MG90s_servo" uid="MG90s_servo*:*Default" version="277">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="MG90s_servo.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0079624346931848125</Mass>
+<CenterOfMass>0.00031896315413994166 -3.3259942908691144e-09 0.0063774482329974095</CenterOfMass>
+<Inertia>6.5349545649186166e-07 9.2748315265668621e-07 4.6052833362787889e-07 -9.1001252413718069e-14 3.6241717456158252e-08 2.2273566075949084e-13</Inertia>
+</MassProperties>
+<GeometryFile name="MG90s_servo_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tibia" uid="Tibia*:*Default" version="866">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tibia.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.041806284373244663</Mass>
+<CenterOfMass>0.00021274412474600688 0.052214904779868496 -0.0076289776923289766</CenterOfMass>
+<Inertia>2.705240864303192e-05 9.5172844125188053e-06 3.0491779352670344e-05 6.481922539327376e-06 1.3234780875022251e-07 -3.42030693119461e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Tibia_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.37647058823529411" g="0.37647058823529411" b="0.37647058823529411" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

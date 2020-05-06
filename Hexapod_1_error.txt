@@ -1,0 +1,4 @@
+Constrained Instances: 'Base Platform-1/Center Platform-1', 'JV_Camera_v31-2'
+Constraint Name: Coincident52
+Error Details: Constrained components are not resolved. Resolve components and try again. The constraint has been ignored.
+---------------------------------------------------------------------------------
