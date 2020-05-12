@@ -7,7 +7,7 @@
 
 %ALL INPUT ANGLES SHOULD BE IN DEGREES
 
-function [Alpha, Beta, Gamma]= IKwithLegs(P,RobotGeometry)
+function [Alpha, Beta, Gamma]= IKwithLegsBACKUP(P,RobotGeometry,footPositions,LP)
 %IKWITHLEGS Summary of this function goes here
 %   Detailed explanation goes here
 
@@ -23,7 +23,7 @@ Gamma = zeros(1,6);
 L1 = RobotGeometry(5);
 L2 = RobotGeometry(6);
 L3 = RobotGeometry(7);
-[L,~,~,S,U,R,Xp] = Li(P,RobotGeometry)
+[L,~,~,S,U,R,Xp] = Li(P,RobotGeometry,footPositions,LP);
 
 for i=1:6
     if (-1)^i ~= 1
@@ -35,15 +35,14 @@ for i=1:6
     S2(:,i)= [S(1,i) + L1*cos(Alpha(i)); ...
         S(2,i) + L1*sin(Alpha(i)); ...
         S(3,i)];
-    Lprime(:,i)=Xp+R*S2(:,i)-U(:,i);
+    Lprime(:,i)=Xp(:,i)+R*S2(:,i)-U(:,i);
     h(i) = Lprime(3,i);
     hprime(i) = L(3,i); 
     Phi(i) = asin((hprime(i)-h(i))/L1);
     Rho(i) = atan(hprime(i)/sqrt((Lprime(1,i)^2)+(Lprime(2,i)^2)));
-    Beta(i) = DEG(acos((L2^2+norm(Lprime(:,i))^2-L3^2)/(2*L2*norm(Lprime(:,i)))) - (Phi(i) + Rho(i)));
-    Gamma(i) = DEG(pi-acos((L2^2-norm(Lprime(:,i))^2+L3^2)/(2*L2*L3)));
+    Beta(i) = acos((L2^2+norm(Lprime(:,i))^2-L3^2)/(2*L2*norm(Lprime(:,i)))) - (Phi(i) + Rho(i));
+    Gamma(i) = pi-acos((L2^2-norm(Lprime(:,i))^2+L3^2)/(2*L2*L3));
 end
-
 end
 
 
